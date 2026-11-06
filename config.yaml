@@ -1,0 +1,36 @@
+seed: 42
+
+datasets:
+  reviews:
+    source_url: https://huggingface.co/datasets/ai-forever/ru-reviews-classification
+    repo_id: ai-forever/ru-reviews-classification
+    revision: 0f67d914f396ce22917dc6463ec619799b3b08d2
+    license_declared: Apache-2.0
+    format: jsonl
+    raw_dir: data/raw/reviews
+    processed_dir: data/processed/reviews
+    manifest_dir: data/manifests/reviews
+    target_size: 3000
+    label_names:
+      0: negative
+      1: neutral
+      2: positive
+    split_ratios:
+      train: 0.6
+      validation: 0.2
+      test: 0.2
+    preview_per_class: 5
+
+  safety:
+    source_url: https://universe.roboflow.com/constructionsatefy/bac_hien_construction_safety_2024
+    version_url: https://universe.roboflow.com/constructionsatefy/bac_hien_construction_safety_2024/dataset/8
+    workspace: constructionsatefy
+    project: bac_hien_construction_safety_2024
+    version: 8
+    license_declared: CC-BY-4.0
+    format: coco
+    raw_dir: data/raw/safety
+    processed_dir: data/processed/safety
+    manifest_dir: data/manifests/safety
+    report_dir: reports/safety
+    target_size: 4000

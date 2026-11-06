@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frameworks-coursework"
+version = "0.1.0"
+description = "Сравнение ручного и искусственного обогащения текстов и изображений"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub==2.4.0",
+    "ipykernel==7.4.0",
+    "jupyterlab==4.6.6",
+    "matplotlib==3.11.2",
+    "numpy==2.5.4",
+    "pandas==3.1.1",
+    "Pillow==13.0.0",
+    "PyYAML==6.0.3",
+    "roboflow==1.7.3",
+    "scikit-learn==1.9.1",
+    "seaborn==0.13.2",
+]
+
+[tool.setuptools]
+packages = []

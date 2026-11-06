@@ -1,0 +1,52 @@
+{
+  "dataset": "ai-forever/ru-reviews-classification",
+  "source_url": "https://huggingface.co/datasets/ai-forever/ru-reviews-classification",
+  "revision": "0f67d914f396ce22917dc6463ec619799b3b08d2",
+  "retrieved_at_utc": "2026-11-06T20:59:42+00:00",
+  "license_declared": "apache-2.0",
+  "format": "JSONL",
+  "files": [
+    {
+      "file": "train.jsonl",
+      "url": "https://huggingface.co/datasets/ai-forever/ru-reviews-classification/resolve/0f67d914f396ce22917dc6463ec619799b3b08d2/train.jsonl",
+      "bytes": 13331689,
+      "sha256": "0b97698a0c6871437d17e07c973018af9b8c9230ec9048d85cb875cc2c2470ea",
+      "rows": 45000,
+      "class_counts": {
+        "positive": 15000,
+        "neutral": 15000,
+        "negative": 15000
+      }
+    },
+    {
+      "file": "validation.jsonl",
+      "url": "https://huggingface.co/datasets/ai-forever/ru-reviews-classification/resolve/0f67d914f396ce22917dc6463ec619799b3b08d2/validation.jsonl",
+      "bytes": 4430120,
+      "sha256": "cb89b568a3b53e24976bd9e37476bff62fbbbd7991fc04284ecf342f38334031",
+      "rows": 15000,
+      "class_counts": {
+        "positive": 5000,
+        "neutral": 5000,
+        "negative": 5000
+      }
+    },
+    {
+      "file": "test.jsonl",
+      "url": "https://huggingface.co/datasets/ai-forever/ru-reviews-classification/resolve/0f67d914f396ce22917dc6463ec619799b3b08d2/test.jsonl",
+      "bytes": 4445075,
+      "sha256": "5ce9e33bcf14945012ca8405cf739844c1f13db0e4276d0481f8e25d9dec17b5",
+      "rows": 15000,
+      "class_counts": {
+        "negative": 5000,
+        "positive": 5000,
+        "neutral": 5000
+      }
+    },
+    {
+      "file": "README.md",
+      "url": "https://huggingface.co/datasets/ai-forever/ru-reviews-classification/resolve/0f67d914f396ce22917dc6463ec619799b3b08d2/README.md",
+      "bytes": 111,
+      "sha256": "5f9909e4ff5c5f367ab751ccfdf24ec38d4c10d33854c29f11a27368055360cf"
+    }
+  ]
+}

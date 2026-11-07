@@ -19,7 +19,7 @@ datasets:
       train: 0.6
       validation: 0.2
       test: 0.2
-    preview_per_class: 5
+    preview_per_class: 2
 
   safety:
     source_url: https://universe.roboflow.com/constructionsatefy/bac_hien_construction_safety_2024
@@ -32,5 +32,10 @@ datasets:
     raw_dir: data/raw/safety
     processed_dir: data/processed/safety
     manifest_dir: data/manifests/safety
-    report_dir: reports/safety
     target_size: 4000
+    split_parts:
+      train: 8
+      valid: 1
+      test: 1
+    preview_per_class: 3
+    max_bbox_clip_px: 1

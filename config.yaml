@@ -9,7 +9,6 @@ datasets:
     format: jsonl
     raw_dir: data/raw/reviews
     processed_dir: data/processed/reviews
-    manifest_dir: data/manifests/reviews
     target_size: 3000
     label_names:
       0: negative
